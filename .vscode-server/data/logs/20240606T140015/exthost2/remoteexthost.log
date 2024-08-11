@@ -1,0 +1,5 @@
+2024-06-06 14:52:21.513 [info] Extension host with pid 272906 started
+2024-06-06 14:52:21.536 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/d7251ea95541ab4bbd93faa3cea7d9eb/vscode.lock': Lock acquired.
+2024-06-06 18:45:26.635 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-06-06 18:45:26.641 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/d7251ea95541ab4bbd93faa3cea7d9eb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-06 18:45:26.651 [info] Extension host with pid 272906 exiting with code 0

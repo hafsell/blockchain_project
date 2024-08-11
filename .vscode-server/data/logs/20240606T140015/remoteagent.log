@@ -1,0 +1,32 @@
+2024-06-06 14:00:15.421 [info] 
+
+
+
+
+2024-06-06 14:00:15.435 [info] Extension host agent started.
+2024-06-06 14:00:15.761 [error] [<unknown>][3c591c30][ManagementConnection] Unknown reconnection token (never seen).
+2024-06-06 14:01:56.791 [info] [<unknown>][8ef0f44d][ManagementConnection] New connection established.
+2024-06-06 14:01:56.931 [info] [<unknown>][4a475a40][ExtensionHostConnection] New connection established.
+2024-06-06 14:01:56.939 [info] [<unknown>][4a475a40][ExtensionHostConnection] <268975> Launched Extension Host Process.
+2024-06-06 14:02:25.659 [info] [<unknown>][8ef0f44d][ManagementConnection] The client has reconnected.
+2024-06-06 14:02:25.805 [info] [<unknown>][4a475a40][ExtensionHostConnection] The client has reconnected.
+2024-06-06 14:05:15.439 [info] New EH opened, aborting shutdown
+2024-06-06 14:05:15.440 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/server/node/server.main.js:191:6373)
+    at process.emit (node:events:518:28)
+2024-06-06 14:47:01.148 [info] [<unknown>][8ef0f44d][ManagementConnection] The client has reconnected.
+2024-06-06 14:51:12.287 [info] [<unknown>][b65d6eaf][ExtensionHostConnection] New connection established.
+2024-06-06 14:51:12.296 [info] [<unknown>][b65d6eaf][ExtensionHostConnection] <272906> Launched Extension Host Process.
+2024-06-06 14:51:12.473 [info] [<unknown>][e460cd06][ManagementConnection] New connection established.
+2024-06-06 14:52:01.345 [info] [<unknown>][4a475a40][ExtensionHostConnection] <268975> Extension Host Process exited with code: 0, signal: null.
+2024-06-06 14:52:06.976 [info] [<unknown>][e460cd06][ManagementConnection] The client has reconnected.
+2024-06-06 14:52:08.305 [info] [<unknown>][b65d6eaf][ExtensionHostConnection] The client has reconnected.
+2024-06-06 14:52:58.818 [info] [<unknown>][b65d6eaf][ExtensionHostConnection] The client has reconnected.
+2024-06-06 14:52:59.003 [info] [<unknown>][e460cd06][ManagementConnection] The client has reconnected.
+2024-06-06 14:55:11.954 [info] [<unknown>][e460cd06][ManagementConnection] The client has reconnected.
+2024-06-06 14:55:12.083 [info] [<unknown>][b65d6eaf][ExtensionHostConnection] The client has reconnected.
+2024-06-06 15:37:25.258 [info] [<unknown>][e460cd06][ManagementConnection] The client has reconnected.
+2024-06-06 15:37:25.645 [info] [<unknown>][b65d6eaf][ExtensionHostConnection] The client has reconnected.
+2024-06-06 18:45:26.700 [info] [<unknown>][b65d6eaf][ExtensionHostConnection] <272906> Extension Host Process exited with code: 0, signal: null.
+2024-06-06 18:45:26.706 [info] Last EH closed, waiting before shutting down
+2024-06-06 18:50:26.708 [info] Last EH closed, shutting down

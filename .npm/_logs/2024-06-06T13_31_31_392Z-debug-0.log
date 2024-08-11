@@ -1,0 +1,694 @@
+0 verbose cli /home/ubuntu/.nvm/versions/node/v16.19.0/bin/node /home/ubuntu/.nvm/versions/node/v16.19.0/bin/npm
+1 info using npm@8.19.3
+2 info using node@v16.19.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/home/ubuntu/.nvm/versions/node/v16.19.0/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/ubuntu/.cache/typescript/5.4/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 31ms
+11 timing config:load:file:/home/ubuntu/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/home/ubuntu/.nvm/versions/node/v16.19.0/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 44ms
+19 timing npm:load:configload Completed in 44ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install @types/bcryptjs@ts5.4 @types/compression@ts5.4 @types/cors@ts5.4 @types/jsonwebtoken@ts5.4 @types/morgan@ts5.4 @types/multer@ts5.4 @types/nodemailer@ts5.4 @types/passport@ts5.4 @types/passport-jwt@ts5.4 @types/swagger-jsdoc@ts5.4 @types/swagger-ui-express@ts5.4 @types/uuid@ts5.4 @types/validator@ts5.4 @types/eslint-config-prettier@ts5.4 @types/eslint-plugin-prettier@ts5.4 @types/eslint-plugin-security@ts5.4 @types/jest@ts5.4 @types/lint-staged@ts5.4 @types/nodemon@ts5.4 @types/supertest@ts5.4
+23 verbose argv "install" "--ignore-scripts" "@types/bcryptjs@ts5.4" "@types/compression@ts5.4" "@types/cors@ts5.4" "@types/jsonwebtoken@ts5.4" "@types/morgan@ts5.4" "@types/multer@ts5.4" "@types/nodemailer@ts5.4" "@types/passport@ts5.4" "@types/passport-jwt@ts5.4" "@types/swagger-jsdoc@ts5.4" "@types/swagger-ui-express@ts5.4" "@types/uuid@ts5.4" "@types/validator@ts5.4" "@types/eslint-config-prettier@ts5.4" "@types/eslint-plugin-prettier@ts5.4" "@types/eslint-plugin-security@ts5.4" "@types/jest@ts5.4" "@types/lint-staged@ts5.4" "@types/nodemon@ts5.4" "@types/supertest@ts5.4" "--save-dev" "--user-agent" "typesInstaller/5.4.5"
+24 timing npm:load:setTitle Completed in 3ms
+25 timing config:load:flatten Completed in 4ms
+26 timing npm:load:display Completed in 5ms
+27 verbose logfile logs-max:10 dir:/home/ubuntu/.npm/_logs
+28 verbose logfile /home/ubuntu/.npm/_logs/2024-06-06T13_31_31_392Z-debug-0.log
+29 timing npm:load:logFile Completed in 7ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 61ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 91ms
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/@types%2feslint-config-prettier 319ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2feslint-plugin-prettier 321ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fbcryptjs 337ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fswagger-jsdoc 331ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2flint-staged 328ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2fcompression 340ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/@types%2feslint-plugin-security 334ms (cache miss)
+45 http fetch GET 200 https://registry.npmjs.org/@types%2fmorgan 343ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/@types%2fcors 345ms (cache miss)
+47 http fetch GET 200 https://registry.npmjs.org/@types%2fpassport-jwt 344ms (cache miss)
+48 http fetch GET 200 https://registry.npmjs.org/@types%2fnodemon 340ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/@types%2fmulter 350ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/@types%2fpassport 352ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/@types%2fuuid 352ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/@types%2fjsonwebtoken 359ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/@types%2fnodemailer 362ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/@types%2fvalidator 360ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/@types%2fjest 365ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/@types%2fsupertest 504ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/@types%2fswagger-ui-express 536ms (cache miss)
+58 timing idealTree:userRequests Completed in 553ms
+59 silly idealTree buildDeps
+60 silly fetch manifest @types/eslint-config-prettier@6.11.3
+61 silly fetch manifest @types/eslint-plugin-prettier@3.1.3
+62 silly fetch manifest @types/bcryptjs@2.4.6
+63 silly fetch manifest @types/swagger-jsdoc@6.0.4
+64 silly fetch manifest @types/lint-staged@13.3.0
+65 silly fetch manifest @types/compression@1.7.5
+66 silly fetch manifest @types/eslint-plugin-security@3.0.0
+67 silly fetch manifest @types/morgan@1.9.9
+68 silly fetch manifest @types/cors@2.8.17
+69 silly fetch manifest @types/passport-jwt@4.0.1
+70 silly fetch manifest @types/nodemon@1.19.6
+71 silly fetch manifest @types/multer@1.4.11
+72 silly fetch manifest @types/passport@1.0.16
+73 silly fetch manifest @types/uuid@9.0.8
+74 silly fetch manifest @types/jsonwebtoken@9.0.6
+75 silly fetch manifest @types/nodemailer@6.4.15
+76 silly fetch manifest @types/validator@13.11.10
+77 silly fetch manifest @types/jest@29.5.12
+78 silly fetch manifest @types/supertest@6.0.2
+79 silly fetch manifest @types/swagger-ui-express@4.1.6
+80 silly placeDep ROOT @types/bcryptjs@2.4.6 OK for:  want: 2.4.6
+81 silly placeDep ROOT @types/compression@1.7.5 OK for:  want: 1.7.5
+82 silly placeDep ROOT @types/cors@2.8.17 OK for:  want: 2.8.17
+83 silly placeDep ROOT @types/eslint-config-prettier@6.11.3 OK for:  want: 6.11.3
+84 silly placeDep ROOT @types/eslint-plugin-prettier@3.1.3 OK for:  want: 3.1.3
+85 silly placeDep ROOT @types/eslint-plugin-security@3.0.0 OK for:  want: 3.0.0
+86 silly placeDep ROOT @types/jest@29.5.12 OK for:  want: 29.5.12
+87 silly placeDep ROOT @types/jsonwebtoken@9.0.6 OK for:  want: 9.0.6
+88 silly placeDep ROOT @types/lint-staged@13.3.0 OK for:  want: 13.3.0
+89 silly placeDep ROOT @types/morgan@1.9.9 OK for:  want: 1.9.9
+90 silly placeDep ROOT @types/multer@1.4.11 OK for:  want: 1.4.11
+91 silly placeDep ROOT @types/nodemailer@6.4.15 OK for:  want: 6.4.15
+92 silly placeDep ROOT @types/nodemon@1.19.6 OK for:  want: 1.19.6
+93 silly placeDep ROOT @types/passport@1.0.16 OK for:  want: 1.0.16
+94 silly placeDep ROOT @types/passport-jwt@4.0.1 OK for:  want: 4.0.1
+95 silly placeDep ROOT @types/supertest@6.0.2 OK for:  want: 6.0.2
+96 silly placeDep ROOT @types/swagger-jsdoc@6.0.4 OK for:  want: 6.0.4
+97 silly placeDep ROOT @types/swagger-ui-express@4.1.6 OK for:  want: 4.1.6
+98 silly placeDep ROOT @types/uuid@9.0.8 OK for:  want: 9.0.8
+99 silly placeDep ROOT @types/validator@13.11.10 OK for:  want: 13.11.10
+100 silly fetch manifest expect@^29.0.0
+101 silly fetch manifest pretty-format@^29.0.0
+102 silly fetch manifest @types/passport-strategy@*
+103 silly fetch manifest @types/methods@^1.1.4
+104 silly fetch manifest @types/superagent@^8.1.0
+105 http fetch GET 200 https://registry.npmjs.org/pretty-format 71ms (cache miss)
+106 http fetch GET 200 https://registry.npmjs.org/expect 84ms (cache miss)
+107 http fetch GET 200 https://registry.npmjs.org/@types%2fpassport-strategy 87ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/@types%2fmethods 92ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/@types%2fsuperagent 308ms (cache miss)
+110 timing idealTree:#root Completed in 358ms
+111 timing idealTree:node_modules/@types/bcryptjs Completed in 0ms
+112 timing idealTree:node_modules/@types/compression Completed in 0ms
+113 timing idealTree:node_modules/@types/cors Completed in 0ms
+114 timing idealTree:node_modules/@types/eslint-config-prettier Completed in 0ms
+115 timing idealTree:node_modules/@types/eslint-plugin-prettier Completed in 0ms
+116 timing idealTree:node_modules/@types/eslint-plugin-security Completed in 0ms
+117 silly placeDep ROOT expect@29.7.0 OK for: @types/jest@29.5.12 want: ^29.0.0
+118 silly placeDep ROOT pretty-format@29.7.0 OK for: @types/jest@29.5.12 want: ^29.0.0
+119 silly fetch manifest jest-util@^29.7.0
+120 silly fetch manifest jest-get-type@^29.6.3
+121 silly fetch manifest jest-message-util@^29.7.0
+122 silly fetch manifest @jest/expect-utils@^29.7.0
+123 silly fetch manifest jest-matcher-utils@^29.7.0
+124 silly fetch manifest react-is@^18.0.0
+125 silly fetch manifest ansi-styles@^5.0.0
+126 silly fetch manifest @jest/schemas@^29.6.3
+127 http fetch GET 200 https://registry.npmjs.org/ansi-styles 121ms (cache revalidated)
+128 http fetch GET 200 https://registry.npmjs.org/jest-matcher-utils 131ms (cache miss)
+129 http fetch GET 200 https://registry.npmjs.org/@jest%2fexpect-utils 136ms (cache miss)
+130 http fetch GET 200 https://registry.npmjs.org/jest-get-type 142ms (cache miss)
+131 http fetch GET 200 https://registry.npmjs.org/@jest%2fschemas 141ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/jest-util 159ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/jest-message-util 162ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/react-is 195ms (cache miss)
+135 timing idealTree:node_modules/@types/jest Completed in 227ms
+136 timing idealTree:node_modules/@types/jsonwebtoken Completed in 0ms
+137 timing idealTree:node_modules/@types/lint-staged Completed in 0ms
+138 timing idealTree:node_modules/@types/morgan Completed in 0ms
+139 timing idealTree:node_modules/@types/multer Completed in 0ms
+140 timing idealTree:node_modules/@types/nodemailer Completed in 0ms
+141 timing idealTree:node_modules/@types/nodemon Completed in 0ms
+142 timing idealTree:node_modules/@types/passport Completed in 0ms
+143 silly placeDep ROOT @types/passport-strategy@0.2.38 OK for: @types/passport-jwt@4.0.1 want: *
+144 timing idealTree:node_modules/@types/passport-jwt Completed in 2ms
+145 timing idealTree:node_modules/@types/passport-strategy Completed in 0ms
+146 silly placeDep ROOT @types/methods@1.1.4 OK for: @types/supertest@6.0.2 want: ^1.1.4
+147 silly placeDep ROOT @types/superagent@8.1.7 OK for: @types/supertest@6.0.2 want: ^8.1.0
+148 silly fetch manifest @types/cookiejar@^2.1.5
+149 http fetch GET 200 https://registry.npmjs.org/@types%2fcookiejar 73ms (cache miss)
+150 timing idealTree:node_modules/@types/supertest Completed in 78ms
+151 timing idealTree:node_modules/@types/methods Completed in 0ms
+152 silly placeDep ROOT @types/cookiejar@2.1.5 OK for: @types/superagent@8.1.7 want: ^2.1.5
+153 timing idealTree:node_modules/@types/superagent Completed in 2ms
+154 timing idealTree:node_modules/@types/cookiejar Completed in 0ms
+155 timing idealTree:node_modules/@types/swagger-jsdoc Completed in 0ms
+156 timing idealTree:node_modules/@types/swagger-ui-express Completed in 0ms
+157 timing idealTree:node_modules/@types/uuid Completed in 0ms
+158 timing idealTree:node_modules/@types/validator Completed in 0ms
+159 silly placeDep ROOT @jest/expect-utils@29.7.0 OK for: expect@29.7.0 want: ^29.7.0
+160 silly placeDep ROOT jest-get-type@29.6.3 OK for: expect@29.7.0 want: ^29.6.3
+161 silly placeDep ROOT jest-matcher-utils@29.7.0 OK for: expect@29.7.0 want: ^29.7.0
+162 silly placeDep ROOT jest-message-util@29.7.0 OK for: expect@29.7.0 want: ^29.7.0
+163 silly placeDep ROOT jest-util@29.7.0 OK for: expect@29.7.0 want: ^29.7.0
+164 silly fetch manifest chalk@^4.0.0
+165 silly fetch manifest jest-diff@^29.7.0
+166 silly fetch manifest slash@^3.0.0
+167 silly fetch manifest micromatch@^4.0.4
+168 silly fetch manifest @jest/types@^29.6.3
+169 silly fetch manifest graceful-fs@^4.2.9
+170 silly fetch manifest stack-utils@^2.0.3
+171 silly fetch manifest @babel/code-frame@^7.12.13
+172 silly fetch manifest @types/stack-utils@^2.0.0
+173 silly fetch manifest ci-info@^3.2.0
+174 http fetch GET 200 https://registry.npmjs.org/graceful-fs 79ms (cache revalidated)
+175 http fetch GET 200 https://registry.npmjs.org/chalk 85ms (cache revalidated)
+176 http fetch GET 200 https://registry.npmjs.org/stack-utils 84ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/slash 90ms (cache miss)
+178 http fetch GET 200 https://registry.npmjs.org/@types%2fstack-utils 85ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/micromatch 95ms (cache miss)
+180 http fetch GET 200 https://registry.npmjs.org/jest-diff 101ms (cache miss)
+181 http fetch GET 200 https://registry.npmjs.org/ci-info 98ms (cache miss)
+182 http fetch GET 200 https://registry.npmjs.org/@jest%2ftypes 112ms (cache miss)
+183 http fetch GET 200 https://registry.npmjs.org/@babel%2fcode-frame 111ms (cache updated)
+184 timing idealTree:node_modules/expect Completed in 129ms
+185 timing idealTree:node_modules/@jest/expect-utils Completed in 1ms
+186 timing idealTree:node_modules/jest-get-type Completed in 0ms
+187 silly placeDep ROOT chalk@4.1.2 OK for: jest-matcher-utils@29.7.0 want: ^4.0.0
+188 silly placeDep ROOT jest-diff@29.7.0 OK for: jest-matcher-utils@29.7.0 want: ^29.7.0
+189 silly fetch manifest ansi-styles@^4.1.0
+190 silly fetch manifest supports-color@^7.1.0
+191 silly fetch manifest diff-sequences@^29.6.3
+192 http fetch GET 200 https://registry.npmjs.org/diff-sequences 44ms (cache miss)
+193 http fetch GET 200 https://registry.npmjs.org/supports-color 52ms (cache revalidated)
+194 timing idealTree:node_modules/jest-matcher-utils Completed in 57ms
+195 silly placeDep ROOT ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+196 silly placeDep ROOT supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+197 silly fetch manifest color-convert@^2.0.1
+198 silly fetch manifest has-flag@^4.0.0
+199 http fetch GET 200 https://registry.npmjs.org/has-flag 46ms (cache revalidated)
+200 http fetch GET 200 https://registry.npmjs.org/color-convert 57ms (cache revalidated)
+201 timing idealTree:node_modules/chalk Completed in 61ms
+202 silly placeDep ROOT color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+203 silly fetch manifest color-name@~1.1.4
+204 http fetch GET 200 https://registry.npmjs.org/color-name 45ms (cache revalidated)
+205 timing idealTree:node_modules/ansi-styles Completed in 50ms
+206 silly placeDep ROOT color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+207 timing idealTree:node_modules/color-convert Completed in 2ms
+208 timing idealTree:node_modules/color-name Completed in 0ms
+209 silly placeDep ROOT diff-sequences@29.6.3 OK for: jest-diff@29.7.0 want: ^29.6.3
+210 timing idealTree:node_modules/jest-diff Completed in 1ms
+211 timing idealTree:node_modules/diff-sequences Completed in 0ms
+212 silly placeDep ROOT @babel/code-frame@7.24.7 OK for: jest-message-util@29.7.0 want: ^7.12.13
+213 silly placeDep ROOT @jest/types@29.6.3 OK for: jest-message-util@29.7.0 want: ^29.6.3
+214 silly placeDep ROOT @types/stack-utils@2.0.3 OK for: jest-message-util@29.7.0 want: ^2.0.0
+215 silly placeDep ROOT graceful-fs@4.2.11 OK for: jest-message-util@29.7.0 want: ^4.2.9
+216 silly placeDep ROOT micromatch@4.0.7 OK for: jest-message-util@29.7.0 want: ^4.0.4
+217 silly placeDep ROOT slash@3.0.0 OK for: jest-message-util@29.7.0 want: ^3.0.0
+218 silly placeDep ROOT stack-utils@2.0.6 OK for: jest-message-util@29.7.0 want: ^2.0.3
+219 silly fetch manifest @babel/highlight@^7.24.7
+220 silly fetch manifest picocolors@^1.0.0
+221 silly fetch manifest @types/yargs@^17.0.8
+222 silly fetch manifest @types/istanbul-reports@^3.0.0
+223 silly fetch manifest @types/istanbul-lib-coverage@^2.0.0
+224 silly fetch manifest escape-string-regexp@^2.0.0
+225 http fetch GET 200 https://registry.npmjs.org/picocolors 73ms (cache revalidated)
+226 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 69ms (cache revalidated)
+227 http fetch GET 200 https://registry.npmjs.org/@types%2fistanbul-lib-coverage 76ms (cache miss)
+228 http fetch GET 200 https://registry.npmjs.org/@types%2fistanbul-reports 79ms (cache miss)
+229 http fetch GET 200 https://registry.npmjs.org/@types%2fyargs 94ms (cache miss)
+230 http fetch GET 200 https://registry.npmjs.org/@babel%2fhighlight 102ms (cache updated)
+231 timing idealTree:node_modules/jest-message-util Completed in 119ms
+232 silly placeDep ROOT @babel/highlight@7.24.7 OK for: @babel/code-frame@7.24.7 want: ^7.24.7
+233 silly placeDep ROOT picocolors@1.0.1 OK for: @babel/code-frame@7.24.7 want: ^1.0.0
+234 silly fetch manifest @babel/helper-validator-identifier@^7.24.7
+235 silly fetch manifest chalk@^2.4.2
+236 silly fetch manifest js-tokens@^4.0.0
+237 http fetch GET 200 https://registry.npmjs.org/js-tokens 50ms (cache revalidated)
+238 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 72ms (cache updated)
+239 timing idealTree:node_modules/@babel/code-frame Completed in 80ms
+240 silly placeDep ROOT @babel/helper-validator-identifier@7.24.7 OK for: @babel/highlight@7.24.7 want: ^7.24.7
+241 silly placeDep node_modules/@babel/highlight chalk@2.4.2 OK for: @babel/highlight@7.24.7 want: ^2.4.2
+242 silly placeDep ROOT js-tokens@4.0.0 OK for: @babel/highlight@7.24.7 want: ^4.0.0
+243 silly fetch manifest ansi-styles@^3.2.1
+244 silly fetch manifest escape-string-regexp@^1.0.5
+245 silly fetch manifest supports-color@^5.3.0
+246 timing idealTree:node_modules/@babel/highlight Completed in 9ms
+247 timing idealTree:node_modules/@babel/helper-validator-identifier Completed in 0ms
+248 silly placeDep ROOT @jest/schemas@29.6.3 OK for: @jest/types@29.6.3 want: ^29.6.3
+249 silly placeDep ROOT @types/istanbul-lib-coverage@2.0.6 OK for: @jest/types@29.6.3 want: ^2.0.0
+250 silly placeDep ROOT @types/istanbul-reports@3.0.4 OK for: @jest/types@29.6.3 want: ^3.0.0
+251 silly placeDep ROOT @types/yargs@17.0.32 OK for: @jest/types@29.6.3 want: ^17.0.8
+252 silly fetch manifest @sinclair/typebox@^0.27.8
+253 silly fetch manifest @types/istanbul-lib-report@*
+254 silly fetch manifest @types/yargs-parser@*
+255 http fetch GET 200 https://registry.npmjs.org/@types%2fistanbul-lib-report 65ms (cache miss)
+256 http fetch GET 200 https://registry.npmjs.org/@types%2fyargs-parser 65ms (cache miss)
+257 http fetch GET 200 https://registry.npmjs.org/@sinclair%2ftypebox 105ms (cache miss)
+258 timing idealTree:node_modules/@jest/types Completed in 117ms
+259 silly placeDep ROOT @sinclair/typebox@0.27.8 OK for: @jest/schemas@29.6.3 want: ^0.27.8
+260 timing idealTree:node_modules/@jest/schemas Completed in 1ms
+261 timing idealTree:node_modules/@sinclair/typebox Completed in 0ms
+262 timing idealTree:node_modules/@types/istanbul-lib-coverage Completed in 0ms
+263 silly placeDep ROOT @types/istanbul-lib-report@3.0.3 OK for: @types/istanbul-reports@3.0.4 want: *
+264 timing idealTree:node_modules/@types/istanbul-reports Completed in 1ms
+265 timing idealTree:node_modules/@types/istanbul-lib-report Completed in 0ms
+266 timing idealTree:node_modules/@types/stack-utils Completed in 0ms
+267 silly placeDep ROOT @types/yargs-parser@21.0.3 OK for: @types/yargs@17.0.32 want: *
+268 timing idealTree:node_modules/@types/yargs Completed in 2ms
+269 timing idealTree:node_modules/@types/yargs-parser Completed in 0ms
+270 timing idealTree:node_modules/graceful-fs Completed in 0ms
+271 silly placeDep ROOT ci-info@3.9.0 OK for: jest-util@29.7.0 want: ^3.2.0
+272 timing idealTree:node_modules/jest-util Completed in 3ms
+273 timing idealTree:node_modules/ci-info Completed in 0ms
+274 timing idealTree:node_modules/js-tokens Completed in 0ms
+275 timing idealTree:node_modules/micromatch Completed in 1ms
+276 timing idealTree:node_modules/picocolors Completed in 0ms
+277 silly placeDep node_modules/pretty-format ansi-styles@5.2.0 OK for: pretty-format@29.7.0 want: ^5.0.0
+278 silly placeDep ROOT react-is@18.3.1 OK for: pretty-format@29.7.0 want: ^18.0.0
+279 timing idealTree:node_modules/pretty-format Completed in 3ms
+280 timing idealTree:node_modules/react-is Completed in 0ms
+281 timing idealTree:node_modules/slash Completed in 0ms
+282 silly placeDep ROOT escape-string-regexp@2.0.0 OK for: stack-utils@2.0.6 want: ^2.0.0
+283 timing idealTree:node_modules/stack-utils Completed in 2ms
+284 timing idealTree:node_modules/escape-string-regexp Completed in 0ms
+285 silly placeDep ROOT has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+286 timing idealTree:node_modules/supports-color Completed in 1ms
+287 timing idealTree:node_modules/has-flag Completed in 0ms
+288 silly placeDep node_modules/@babel/highlight ansi-styles@3.2.1 OK for: chalk@2.4.2 want: ^3.2.1
+289 silly placeDep node_modules/@babel/highlight escape-string-regexp@1.0.5 OK for: chalk@2.4.2 want: ^1.0.5
+290 silly placeDep node_modules/@babel/highlight supports-color@5.5.0 OK for: chalk@2.4.2 want: ^5.3.0
+291 silly fetch manifest color-convert@^1.9.0
+292 silly fetch manifest has-flag@^3.0.0
+293 timing idealTree:node_modules/@babel/highlight/node_modules/chalk Completed in 6ms
+294 silly placeDep node_modules/@babel/highlight color-convert@1.9.3 OK for: ansi-styles@3.2.1 want: ^1.9.0
+295 silly fetch manifest color-name@1.1.3
+296 timing idealTree:node_modules/@babel/highlight/node_modules/ansi-styles Completed in 3ms
+297 silly placeDep node_modules/@babel/highlight color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+298 timing idealTree:node_modules/@babel/highlight/node_modules/color-convert Completed in 1ms
+299 timing idealTree:node_modules/@babel/highlight/node_modules/color-name Completed in 0ms
+300 timing idealTree:node_modules/@babel/highlight/node_modules/escape-string-regexp Completed in 0ms
+301 silly placeDep node_modules/@babel/highlight has-flag@3.0.0 OK for: supports-color@5.5.0 want: ^3.0.0
+302 timing idealTree:node_modules/@babel/highlight/node_modules/supports-color Completed in 2ms
+303 timing idealTree:node_modules/@babel/highlight/node_modules/has-flag Completed in 0ms
+304 timing idealTree:node_modules/pretty-format/node_modules/ansi-styles Completed in 0ms
+305 timing idealTree:buildDeps Completed in 1327ms
+306 timing idealTree:fixDepFlags Completed in 1ms
+307 timing idealTree Completed in 1975ms
+308 timing reify:loadTrees Completed in 1976ms
+309 timing reify:diffTrees Completed in 4ms
+310 silly reify moves {}
+311 timing reify:retireShallow Completed in 2ms
+312 timing reify:createSparse Completed in 34ms
+313 timing reify:loadBundles Completed in 0ms
+314 silly audit bulk request {
+314 silly audit   '@types/body-parser': [ '1.19.5' ],
+314 silly audit   '@types/chai': [ '4.3.16' ],
+314 silly audit   '@types/chai-as-promised': [ '7.1.8' ],
+314 silly audit   '@types/chai-things': [ '0.0.38' ],
+314 silly audit   '@types/connect': [ '3.4.38' ],
+314 silly audit   '@types/eslint': [ '8.56.10' ],
+314 silly audit   '@types/estree': [ '1.0.5' ],
+314 silly audit   '@types/expect': [ '1.20.4' ],
+314 silly audit   '@types/express': [ '4.17.21' ],
+314 silly audit   '@types/express-serve-static-core': [ '4.19.3' ],
+314 silly audit   '@types/get-params': [ '0.1.2' ],
+314 silly audit   '@types/glob-stream': [ '8.0.2' ],
+314 silly audit   '@types/gulp': [ '4.0.17' ],
+314 silly audit   '@types/gulp-debug': [ '2.0.36' ],
+314 silly audit   '@types/http-errors': [ '2.0.4' ],
+314 silly audit   '@types/json-schema': [ '7.0.15' ],
+314 silly audit   '@types/mime': [ '1.3.5' ],
+314 silly audit   '@types/mocha': [ '10.0.6' ],
+314 silly audit   '@types/node': [ '20.14.1' ],
+314 silly audit   '@types/picomatch': [ '2.3.3' ],
+314 silly audit   '@types/qs': [ '6.9.15' ],
+314 silly audit   '@types/range-parser': [ '1.2.7' ],
+314 silly audit   '@types/rewire': [ '2.5.30' ],
+314 silly audit   '@types/send': [ '0.17.4' ],
+314 silly audit   '@types/serve-static': [ '1.15.7' ],
+314 silly audit   '@types/sinon': [ '17.0.3' ],
+314 silly audit   '@types/sinon-chai': [ '3.2.12' ],
+314 silly audit   '@types/sinonjs__fake-timers': [ '8.1.5' ],
+314 silly audit   '@types/streamx': [ '2.9.5' ],
+314 silly audit   '@types/undertaker': [ '1.2.11' ],
+314 silly audit   '@types/undertaker-registry': [ '1.0.4' ],
+314 silly audit   '@types/vinyl': [ '2.0.12' ],
+314 silly audit   '@types/vinyl-fs': [ '3.0.5' ],
+314 silly audit   anymatch: [ '3.1.3' ],
+314 silly audit   'async-done': [ '1.3.2' ],
+314 silly audit   'binary-extensions': [ '2.3.0' ],
+314 silly audit   braces: [ '3.0.3' ],
+314 silly audit   chokidar: [ '3.6.0' ],
+314 silly audit   'end-of-stream': [ '1.4.4' ],
+314 silly audit   'fill-range': [ '7.1.1' ],
+314 silly audit   fsevents: [ '2.3.3' ],
+314 silly audit   'glob-parent': [ '5.1.2' ],
+314 silly audit   'is-binary-path': [ '2.1.0' ],
+314 silly audit   'is-extglob': [ '2.1.1' ],
+314 silly audit   'is-glob': [ '4.0.3' ],
+314 silly audit   'is-number': [ '7.0.0' ],
+314 silly audit   'normalize-path': [ '3.0.0' ],
+314 silly audit   once: [ '1.4.0' ],
+314 silly audit   picomatch: [ '2.3.1' ],
+314 silly audit   'process-nextick-args': [ '2.0.1' ],
+314 silly audit   readdirp: [ '3.6.0' ],
+314 silly audit   'stream-exhaust': [ '1.0.2' ],
+314 silly audit   'to-regex-range': [ '5.0.1' ],
+314 silly audit   'types-registry': [ '0.1.685' ],
+314 silly audit   'undici-types': [ '5.26.5' ],
+314 silly audit   wrappy: [ '1.0.2' ],
+314 silly audit   '@types/bcryptjs': [ '2.4.6' ],
+314 silly audit   '@types/compression': [ '1.7.5' ],
+314 silly audit   '@types/cors': [ '2.8.17' ],
+314 silly audit   '@types/eslint-config-prettier': [ '6.11.3' ],
+314 silly audit   '@types/eslint-plugin-prettier': [ '3.1.3' ],
+314 silly audit   '@types/eslint-plugin-security': [ '3.0.0' ],
+314 silly audit   '@types/jest': [ '29.5.12' ],
+314 silly audit   '@types/jsonwebtoken': [ '9.0.6' ],
+314 silly audit   '@types/lint-staged': [ '13.3.0' ],
+314 silly audit   '@types/morgan': [ '1.9.9' ],
+314 silly audit   '@types/multer': [ '1.4.11' ],
+314 silly audit   '@types/nodemailer': [ '6.4.15' ],
+314 silly audit   '@types/nodemon': [ '1.19.6' ],
+314 silly audit   '@types/passport': [ '1.0.16' ],
+314 silly audit   '@types/passport-jwt': [ '4.0.1' ],
+314 silly audit   '@types/supertest': [ '6.0.2' ],
+314 silly audit   '@types/swagger-jsdoc': [ '6.0.4' ],
+314 silly audit   '@types/swagger-ui-express': [ '4.1.6' ],
+314 silly audit   '@types/uuid': [ '9.0.8' ],
+314 silly audit   '@types/validator': [ '13.11.10' ],
+314 silly audit   expect: [ '29.7.0' ],
+314 silly audit   'pretty-format': [ '29.7.0' ],
+314 silly audit   '@types/passport-strategy': [ '0.2.38' ],
+314 silly audit   '@types/methods': [ '1.1.4' ],
+314 silly audit   '@types/superagent': [ '8.1.7' ],
+314 silly audit   '@types/cookiejar': [ '2.1.5' ],
+314 silly audit   '@jest/expect-utils': [ '29.7.0' ],
+314 silly audit   'jest-get-type': [ '29.6.3' ],
+314 silly audit   'jest-matcher-utils': [ '29.7.0' ],
+314 silly audit   'jest-message-util': [ '29.7.0' ],
+314 silly audit   'jest-util': [ '29.7.0' ],
+314 silly audit   chalk: [ '4.1.2', '2.4.2' ],
+314 silly audit   'jest-diff': [ '29.7.0' ],
+314 silly audit   'ansi-styles': [ '4.3.0', '5.2.0', '3.2.1' ],
+314 silly audit   'supports-color': [ '7.2.0', '5.5.0' ],
+314 silly audit   'color-convert': [ '2.0.1', '1.9.3' ],
+314 silly audit   'color-name': [ '1.1.4', '1.1.3' ],
+314 silly audit   'diff-sequences': [ '29.6.3' ],
+314 silly audit   '@babel/code-frame': [ '7.24.7' ],
+314 silly audit   '@jest/types': [ '29.6.3' ],
+314 silly audit   '@types/stack-utils': [ '2.0.3' ],
+314 silly audit   'graceful-fs': [ '4.2.11' ],
+314 silly audit   micromatch: [ '4.0.7' ],
+314 silly audit   slash: [ '3.0.0' ],
+314 silly audit   'stack-utils': [ '2.0.6' ],
+314 silly audit   '@babel/highlight': [ '7.24.7' ],
+314 silly audit   picocolors: [ '1.0.1' ],
+314 silly audit   '@babel/helper-validator-identifier': [ '7.24.7' ],
+314 silly audit   'js-tokens': [ '4.0.0' ],
+314 silly audit   '@jest/schemas': [ '29.6.3' ],
+314 silly audit   '@types/istanbul-lib-coverage': [ '2.0.6' ],
+314 silly audit   '@types/istanbul-reports': [ '3.0.4' ],
+314 silly audit   '@types/yargs': [ '17.0.32' ],
+314 silly audit   '@sinclair/typebox': [ '0.27.8' ],
+314 silly audit   '@types/istanbul-lib-report': [ '3.0.3' ],
+314 silly audit   '@types/yargs-parser': [ '21.0.3' ],
+314 silly audit   'ci-info': [ '3.9.0' ],
+314 silly audit   'react-is': [ '18.3.1' ],
+314 silly audit   'escape-string-regexp': [ '2.0.0', '1.0.5' ],
+314 silly audit   'has-flag': [ '4.0.0', '3.0.0' ]
+314 silly audit }
+315 verbose reify failed optional dependency /home/ubuntu/.cache/typescript/5.4/node_modules/fsevents
+316 silly reify mark deleted [ '/home/ubuntu/.cache/typescript/5.4/node_modules/fsevents' ]
+317 timing reifyNode:node_modules/fsevents Completed in 43ms
+318 silly tarball no local data for escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz. Extracting by manifest.
+319 silly tarball no local data for ci-info@https://registry.npmjs.org/ci-info/-/ci-info-3.9.0.tgz. Extracting by manifest.
+320 silly tarball no local data for react-is@https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz. Extracting by manifest.
+321 silly tarball no local data for @types/yargs-parser@https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-21.0.3.tgz. Extracting by manifest.
+322 silly tarball no local data for @types/istanbul-lib-report@https://registry.npmjs.org/@types/istanbul-lib-report/-/istanbul-lib-report-3.0.3.tgz. Extracting by manifest.
+323 silly tarball no local data for @sinclair/typebox@https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.27.8.tgz. Extracting by manifest.
+324 silly tarball no local data for @types/yargs@https://registry.npmjs.org/@types/yargs/-/yargs-17.0.32.tgz. Extracting by manifest.
+325 silly tarball no local data for @types/istanbul-reports@https://registry.npmjs.org/@types/istanbul-reports/-/istanbul-reports-3.0.4.tgz. Extracting by manifest.
+326 silly tarball no local data for @types/istanbul-lib-coverage@https://registry.npmjs.org/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.6.tgz. Extracting by manifest.
+327 silly tarball no local data for @jest/schemas@https://registry.npmjs.org/@jest/schemas/-/schemas-29.6.3.tgz. Extracting by manifest.
+328 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.24.7.tgz. Extracting by manifest.
+329 silly tarball no local data for stack-utils@https://registry.npmjs.org/stack-utils/-/stack-utils-2.0.6.tgz. Extracting by manifest.
+330 silly tarball no local data for @babel/highlight@https://registry.npmjs.org/@babel/highlight/-/highlight-7.24.7.tgz. Extracting by manifest.
+331 silly tarball no local data for slash@https://registry.npmjs.org/slash/-/slash-3.0.0.tgz. Extracting by manifest.
+332 silly tarball no local data for micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.7.tgz. Extracting by manifest.
+333 silly tarball no local data for @types/stack-utils@https://registry.npmjs.org/@types/stack-utils/-/stack-utils-2.0.3.tgz. Extracting by manifest.
+334 silly tarball no local data for @jest/types@https://registry.npmjs.org/@jest/types/-/types-29.6.3.tgz. Extracting by manifest.
+335 silly tarball no local data for @babel/code-frame@https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.24.7.tgz. Extracting by manifest.
+336 silly tarball no local data for diff-sequences@https://registry.npmjs.org/diff-sequences/-/diff-sequences-29.6.3.tgz. Extracting by manifest.
+337 silly tarball no local data for jest-diff@https://registry.npmjs.org/jest-diff/-/jest-diff-29.7.0.tgz. Extracting by manifest.
+338 silly tarball no local data for jest-message-util@https://registry.npmjs.org/jest-message-util/-/jest-message-util-29.7.0.tgz. Extracting by manifest.
+339 silly tarball no local data for jest-util@https://registry.npmjs.org/jest-util/-/jest-util-29.7.0.tgz. Extracting by manifest.
+340 silly tarball no local data for jest-matcher-utils@https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-29.7.0.tgz. Extracting by manifest.
+341 silly tarball no local data for @jest/expect-utils@https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-29.7.0.tgz. Extracting by manifest.
+342 silly tarball no local data for jest-get-type@https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.6.3.tgz. Extracting by manifest.
+343 silly tarball no local data for @types/passport-strategy@https://registry.npmjs.org/@types/passport-strategy/-/passport-strategy-0.2.38.tgz. Extracting by manifest.
+344 silly tarball no local data for @types/cookiejar@https://registry.npmjs.org/@types/cookiejar/-/cookiejar-2.1.5.tgz. Extracting by manifest.
+345 silly tarball no local data for @types/superagent@https://registry.npmjs.org/@types/superagent/-/superagent-8.1.7.tgz. Extracting by manifest.
+346 silly tarball no local data for @types/methods@https://registry.npmjs.org/@types/methods/-/methods-1.1.4.tgz. Extracting by manifest.
+347 silly tarball no local data for expect@https://registry.npmjs.org/expect/-/expect-29.7.0.tgz. Extracting by manifest.
+348 silly tarball no local data for pretty-format@https://registry.npmjs.org/pretty-format/-/pretty-format-29.7.0.tgz. Extracting by manifest.
+349 silly tarball no local data for @types/uuid@https://registry.npmjs.org/@types/uuid/-/uuid-9.0.8.tgz. Extracting by manifest.
+350 silly tarball no local data for @types/supertest@https://registry.npmjs.org/@types/supertest/-/supertest-6.0.2.tgz. Extracting by manifest.
+351 silly tarball no local data for @types/validator@https://registry.npmjs.org/@types/validator/-/validator-13.11.10.tgz. Extracting by manifest.
+352 silly tarball no local data for @types/passport@https://registry.npmjs.org/@types/passport/-/passport-1.0.16.tgz. Extracting by manifest.
+353 silly tarball no local data for @types/swagger-jsdoc@https://registry.npmjs.org/@types/swagger-jsdoc/-/swagger-jsdoc-6.0.4.tgz. Extracting by manifest.
+354 silly tarball no local data for @types/swagger-ui-express@https://registry.npmjs.org/@types/swagger-ui-express/-/swagger-ui-express-4.1.6.tgz. Extracting by manifest.
+355 silly tarball no local data for @types/nodemon@https://registry.npmjs.org/@types/nodemon/-/nodemon-1.19.6.tgz. Extracting by manifest.
+356 silly tarball no local data for @types/multer@https://registry.npmjs.org/@types/multer/-/multer-1.4.11.tgz. Extracting by manifest.
+357 silly tarball no local data for @types/passport-jwt@https://registry.npmjs.org/@types/passport-jwt/-/passport-jwt-4.0.1.tgz. Extracting by manifest.
+358 silly tarball no local data for @types/lint-staged@https://registry.npmjs.org/@types/lint-staged/-/lint-staged-13.3.0.tgz. Extracting by manifest.
+359 silly tarball no local data for @types/nodemailer@https://registry.npmjs.org/@types/nodemailer/-/nodemailer-6.4.15.tgz. Extracting by manifest.
+360 silly tarball no local data for @types/jest@https://registry.npmjs.org/@types/jest/-/jest-29.5.12.tgz. Extracting by manifest.
+361 silly tarball no local data for @types/morgan@https://registry.npmjs.org/@types/morgan/-/morgan-1.9.9.tgz. Extracting by manifest.
+362 silly tarball no local data for @types/eslint-config-prettier@https://registry.npmjs.org/@types/eslint-config-prettier/-/eslint-config-prettier-6.11.3.tgz. Extracting by manifest.
+363 silly tarball no local data for @types/eslint-plugin-security@https://registry.npmjs.org/@types/eslint-plugin-security/-/eslint-plugin-security-3.0.0.tgz. Extracting by manifest.
+364 silly tarball no local data for @types/eslint-plugin-prettier@https://registry.npmjs.org/@types/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.3.tgz. Extracting by manifest.
+365 silly tarball no local data for @types/jsonwebtoken@https://registry.npmjs.org/@types/jsonwebtoken/-/jsonwebtoken-9.0.6.tgz. Extracting by manifest.
+366 silly tarball no local data for @types/compression@https://registry.npmjs.org/@types/compression/-/compression-1.7.5.tgz. Extracting by manifest.
+367 silly tarball no local data for @types/cors@https://registry.npmjs.org/@types/cors/-/cors-2.8.17.tgz. Extracting by manifest.
+368 silly tarball no local data for @types/bcryptjs@https://registry.npmjs.org/@types/bcryptjs/-/bcryptjs-2.4.6.tgz. Extracting by manifest.
+369 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.2.0.tgz. Extracting by manifest.
+370 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 284ms
+371 timing auditReport:getReport Completed in 290ms
+372 silly audit report {}
+373 timing auditReport:init Completed in 0ms
+374 timing reify:audit Completed in 292ms
+375 timing reifyNode:node_modules/color-name Completed in 750ms
+376 timing reifyNode:node_modules/@babel/highlight/node_modules/has-flag Completed in 769ms
+377 timing reifyNode:node_modules/@babel/highlight/node_modules/escape-string-regexp Completed in 769ms
+378 timing reifyNode:node_modules/@babel/highlight/node_modules/ansi-styles Completed in 770ms
+379 timing reifyNode:node_modules/has-flag Completed in 772ms
+380 timing reifyNode:node_modules/supports-color Completed in 769ms
+381 timing reifyNode:node_modules/@babel/highlight/node_modules/supports-color Completed in 821ms
+382 timing reifyNode:node_modules/js-tokens Completed in 822ms
+383 timing reifyNode:node_modules/ansi-styles Completed in 822ms
+384 timing reifyNode:node_modules/picocolors Completed in 842ms
+385 timing reifyNode:node_modules/graceful-fs Completed in 841ms
+386 timing reifyNode:node_modules/@babel/highlight/node_modules/color-name Completed in 862ms
+387 timing reifyNode:node_modules/color-convert Completed in 874ms
+388 timing reifyNode:node_modules/@babel/highlight/node_modules/color-convert Completed in 890ms
+389 timing reifyNode:node_modules/@babel/highlight/node_modules/chalk Completed in 900ms
+390 timing reifyNode:node_modules/chalk Completed in 899ms
+391 http fetch GET 200 https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz 829ms (cache miss)
+392 timing reifyNode:node_modules/react-is Completed in 924ms
+393 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz 835ms (cache miss)
+394 timing reifyNode:node_modules/escape-string-regexp Completed in 924ms
+395 http fetch GET 200 https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-21.0.3.tgz 830ms (cache miss)
+396 timing reifyNode:node_modules/@types/yargs-parser Completed in 925ms
+397 http fetch GET 200 https://registry.npmjs.org/@types/istanbul-reports/-/istanbul-reports-3.0.4.tgz 822ms (cache miss)
+398 timing reifyNode:node_modules/@types/istanbul-reports Completed in 924ms
+399 http fetch GET 200 https://registry.npmjs.org/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.6.tgz 821ms (cache miss)
+400 timing reifyNode:node_modules/@types/istanbul-lib-coverage Completed in 925ms
+401 http fetch GET 200 https://registry.npmjs.org/micromatch/-/micromatch-4.0.7.tgz 793ms (cache miss)
+402 timing reifyNode:node_modules/micromatch Completed in 925ms
+403 http fetch GET 200 https://registry.npmjs.org/slash/-/slash-3.0.0.tgz 802ms (cache miss)
+404 timing reifyNode:node_modules/slash Completed in 933ms
+405 http fetch GET 200 https://registry.npmjs.org/@types/stack-utils/-/stack-utils-2.0.3.tgz 800ms (cache miss)
+406 timing reifyNode:node_modules/@types/stack-utils Completed in 934ms
+407 http fetch GET 200 https://registry.npmjs.org/@jest/schemas/-/schemas-29.6.3.tgz 837ms (cache miss)
+408 timing reifyNode:node_modules/@jest/schemas Completed in 943ms
+409 http fetch GET 200 https://registry.npmjs.org/jest-util/-/jest-util-29.7.0.tgz 797ms (cache miss)
+410 http fetch GET 200 https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-29.7.0.tgz 801ms (cache miss)
+411 timing reifyNode:node_modules/jest-matcher-utils Completed in 948ms
+412 http fetch GET 200 https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.24.7.tgz 811ms (cache miss)
+413 timing reifyNode:node_modules/@babel/code-frame Completed in 949ms
+414 http fetch GET 200 https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-29.7.0.tgz 801ms (cache miss)
+415 timing reifyNode:node_modules/@jest/expect-utils Completed in 949ms
+416 http fetch GET 200 https://registry.npmjs.org/@types/methods/-/methods-1.1.4.tgz 794ms (cache miss)
+417 timing reifyNode:node_modules/@types/methods Completed in 950ms
+418 http fetch GET 200 https://registry.npmjs.org/ci-info/-/ci-info-3.9.0.tgz 863ms (cache miss)
+419 timing reifyNode:node_modules/ci-info Completed in 956ms
+420 http fetch GET 200 https://registry.npmjs.org/stack-utils/-/stack-utils-2.0.6.tgz 839ms (cache miss)
+421 timing reifyNode:node_modules/stack-utils Completed in 955ms
+422 http fetch GET 200 https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.6.3.tgz 806ms (cache miss)
+423 timing reifyNode:node_modules/jest-get-type Completed in 957ms
+424 http fetch GET 200 https://registry.npmjs.org/@types/multer/-/multer-1.4.11.tgz 768ms (cache miss)
+425 timing reifyNode:node_modules/@types/multer Completed in 957ms
+426 http fetch GET 200 https://registry.npmjs.org/@types/supertest/-/supertest-6.0.2.tgz 779ms (cache miss)
+427 timing reifyNode:node_modules/@types/supertest Completed in 957ms
+428 http fetch GET 200 https://registry.npmjs.org/@types/nodemon/-/nodemon-1.19.6.tgz 771ms (cache miss)
+429 timing reifyNode:node_modules/@types/nodemon Completed in 957ms
+430 http fetch GET 200 https://registry.npmjs.org/@types/superagent/-/superagent-8.1.7.tgz 806ms (cache miss)
+431 http fetch GET 200 https://registry.npmjs.org/@types/swagger-jsdoc/-/swagger-jsdoc-6.0.4.tgz 775ms (cache miss)
+432 timing reifyNode:node_modules/@types/swagger-jsdoc Completed in 958ms
+433 http fetch GET 200 https://registry.npmjs.org/@types/swagger-ui-express/-/swagger-ui-express-4.1.6.tgz 773ms (cache miss)
+434 timing reifyNode:node_modules/@types/swagger-ui-express Completed in 958ms
+435 http fetch GET 200 https://registry.npmjs.org/@types/istanbul-lib-report/-/istanbul-lib-report-3.0.3.tgz 866ms (cache miss)
+436 timing reifyNode:node_modules/@types/istanbul-lib-report Completed in 963ms
+437 http fetch GET 200 https://registry.npmjs.org/@babel/highlight/-/highlight-7.24.7.tgz 834ms (cache miss)
+438 timing reifyNode:node_modules/@babel/highlight Completed in 963ms
+439 http fetch GET 200 https://registry.npmjs.org/@jest/types/-/types-29.6.3.tgz 829ms (cache miss)
+440 timing reifyNode:node_modules/@jest/types Completed in 964ms
+441 http fetch GET 200 https://registry.npmjs.org/@types/passport-strategy/-/passport-strategy-0.2.38.tgz 814ms (cache miss)
+442 timing reifyNode:node_modules/@types/passport-strategy Completed in 964ms
+443 http fetch GET 200 https://registry.npmjs.org/@types/cookiejar/-/cookiejar-2.1.5.tgz 812ms (cache miss)
+444 timing reifyNode:node_modules/@types/cookiejar Completed in 965ms
+445 http fetch GET 200 https://registry.npmjs.org/@types/passport-jwt/-/passport-jwt-4.0.1.tgz 774ms (cache miss)
+446 timing reifyNode:node_modules/@types/passport-jwt Completed in 964ms
+447 http fetch GET 200 https://registry.npmjs.org/@types/lint-staged/-/lint-staged-13.3.0.tgz 772ms (cache miss)
+448 timing reifyNode:node_modules/@types/lint-staged Completed in 963ms
+449 http fetch GET 200 https://registry.npmjs.org/@types/morgan/-/morgan-1.9.9.tgz 770ms (cache miss)
+450 timing reifyNode:node_modules/@types/morgan Completed in 965ms
+451 http fetch GET 200 https://registry.npmjs.org/@types/eslint-config-prettier/-/eslint-config-prettier-6.11.3.tgz 768ms (cache miss)
+452 timing reifyNode:node_modules/@types/eslint-config-prettier Completed in 965ms
+453 timing reifyNode:node_modules/@types/superagent Completed in 971ms
+454 http fetch GET 200 https://registry.npmjs.org/@types/uuid/-/uuid-9.0.8.tgz 800ms (cache miss)
+455 timing reifyNode:node_modules/@types/uuid Completed in 972ms
+456 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.2.0.tgz 751ms (cache miss)
+457 timing reifyNode:node_modules/pretty-format/node_modules/ansi-styles Completed in 974ms
+458 http fetch GET 200 https://registry.npmjs.org/@types/cors/-/cors-2.8.17.tgz 755ms (cache miss)
+459 timing reifyNode:node_modules/@types/cors Completed in 972ms
+460 http fetch GET 200 https://registry.npmjs.org/@types/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.3.tgz 761ms (cache miss)
+461 timing reifyNode:node_modules/@types/eslint-plugin-prettier Completed in 973ms
+462 http fetch GET 200 https://registry.npmjs.org/@types/bcryptjs/-/bcryptjs-2.4.6.tgz 755ms (cache miss)
+463 timing reifyNode:node_modules/@types/bcryptjs Completed in 972ms
+464 http fetch GET 200 https://registry.npmjs.org/jest-message-util/-/jest-message-util-29.7.0.tgz 835ms (cache miss)
+465 timing reifyNode:node_modules/jest-message-util Completed in 978ms
+466 http fetch GET 200 https://registry.npmjs.org/@types/jsonwebtoken/-/jsonwebtoken-9.0.6.tgz 769ms (cache miss)
+467 timing reifyNode:node_modules/@types/jsonwebtoken Completed in 982ms
+468 http fetch GET 200 https://registry.npmjs.org/@types/compression/-/compression-1.7.5.tgz 768ms (cache miss)
+469 timing reifyNode:node_modules/@types/compression Completed in 983ms
+470 http fetch GET 200 https://registry.npmjs.org/@types/eslint-plugin-security/-/eslint-plugin-security-3.0.0.tgz 784ms (cache miss)
+471 timing reifyNode:node_modules/@types/eslint-plugin-security Completed in 983ms
+472 http fetch GET 200 https://registry.npmjs.org/@types/yargs/-/yargs-17.0.32.tgz 887ms (cache miss)
+473 timing reifyNode:node_modules/@types/yargs Completed in 988ms
+474 http fetch GET 200 https://registry.npmjs.org/jest-diff/-/jest-diff-29.7.0.tgz 847ms (cache miss)
+475 http fetch GET 200 https://registry.npmjs.org/@types/passport/-/passport-1.0.16.tgz 807ms (cache miss)
+476 timing reifyNode:node_modules/@types/passport Completed in 989ms
+477 http fetch GET 200 https://registry.npmjs.org/diff-sequences/-/diff-sequences-29.6.3.tgz 854ms (cache miss)
+478 timing reifyNode:node_modules/diff-sequences Completed in 993ms
+479 timing reifyNode:node_modules/jest-diff Completed in 996ms
+480 http fetch GET 200 https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.24.7.tgz 893ms (cache miss)
+481 timing reifyNode:node_modules/@babel/helper-validator-identifier Completed in 1002ms
+482 http fetch GET 200 https://registry.npmjs.org/pretty-format/-/pretty-format-29.7.0.tgz 831ms (cache miss)
+483 http fetch GET 200 https://registry.npmjs.org/@types/jest/-/jest-29.5.12.tgz 807ms (cache miss)
+484 timing reifyNode:node_modules/@types/jest Completed in 1001ms
+485 timing reifyNode:node_modules/pretty-format Completed in 1006ms
+486 timing reifyNode:node_modules/jest-util Completed in 1010ms
+487 http fetch GET 200 https://registry.npmjs.org/expect/-/expect-29.7.0.tgz 865ms (cache miss)
+488 timing reifyNode:node_modules/expect Completed in 1020ms
+489 http fetch GET 200 https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.27.8.tgz 991ms (cache miss)
+490 timing reifyNode:node_modules/@sinclair/typebox Completed in 1090ms
+491 http fetch GET 200 https://registry.npmjs.org/@types/nodemailer/-/nodemailer-6.4.15.tgz 909ms (cache miss)
+492 timing reifyNode:node_modules/@types/nodemailer Completed in 1104ms
+493 http fetch GET 200 https://registry.npmjs.org/@types/validator/-/validator-13.11.10.tgz 967ms (cache miss)
+494 timing reifyNode:node_modules/@types/validator Completed in 1147ms
+495 timing reify:unpack Completed in 1153ms
+496 timing reify:unretire Completed in 0ms
+497 timing build:queue Completed in 3ms
+498 timing build:deps Completed in 3ms
+499 timing build Completed in 3ms
+500 timing reify:build Completed in 4ms
+501 timing reify:trash Completed in 0ms
+502 timing reify:save Completed in 114ms
+503 timing reify Completed in 3353ms
+504 silly ADD node_modules/has-flag
+505 silly ADD node_modules/escape-string-regexp
+506 silly ADD node_modules/react-is
+507 silly ADD node_modules/ci-info
+508 silly ADD node_modules/@types/yargs-parser
+509 silly ADD node_modules/@types/istanbul-lib-report
+510 silly ADD node_modules/@sinclair/typebox
+511 silly ADD node_modules/@types/yargs
+512 silly ADD node_modules/@types/istanbul-reports
+513 silly ADD node_modules/@types/istanbul-lib-coverage
+514 silly ADD node_modules/@jest/schemas
+515 silly ADD node_modules/js-tokens
+516 silly ADD node_modules/@babel/helper-validator-identifier
+517 silly ADD node_modules/picocolors
+518 silly ADD node_modules/@babel/highlight
+519 silly ADD node_modules/@babel/highlight/node_modules/has-flag
+520 silly ADD node_modules/@babel/highlight/node_modules/color-name
+521 silly ADD node_modules/@babel/highlight/node_modules/color-convert
+522 silly ADD node_modules/@babel/highlight/node_modules/supports-color
+523 silly ADD node_modules/@babel/highlight/node_modules/escape-string-regexp
+524 silly ADD node_modules/@babel/highlight/node_modules/ansi-styles
+525 silly ADD node_modules/@babel/highlight/node_modules/chalk
+526 silly ADD node_modules/stack-utils
+527 silly ADD node_modules/slash
+528 silly ADD node_modules/micromatch
+529 silly ADD node_modules/graceful-fs
+530 silly ADD node_modules/@types/stack-utils
+531 silly ADD node_modules/@jest/types
+532 silly ADD node_modules/@babel/code-frame
+533 silly ADD node_modules/diff-sequences
+534 silly ADD node_modules/color-name
+535 silly ADD node_modules/color-convert
+536 silly ADD node_modules/supports-color
+537 silly ADD node_modules/ansi-styles
+538 silly ADD node_modules/jest-diff
+539 silly ADD node_modules/chalk
+540 silly ADD node_modules/jest-util
+541 silly ADD node_modules/jest-message-util
+542 silly ADD node_modules/jest-matcher-utils
+543 silly ADD node_modules/jest-get-type
+544 silly ADD node_modules/@jest/expect-utils
+545 silly ADD node_modules/@types/cookiejar
+546 silly ADD node_modules/@types/superagent
+547 silly ADD node_modules/@types/methods
+548 silly ADD node_modules/@types/passport-strategy
+549 silly ADD node_modules/pretty-format
+550 silly ADD node_modules/pretty-format/node_modules/ansi-styles
+551 silly ADD node_modules/expect
+552 silly ADD node_modules/@types/validator
+553 silly ADD node_modules/@types/uuid
+554 silly ADD node_modules/@types/swagger-ui-express
+555 silly ADD node_modules/@types/swagger-jsdoc
+556 silly ADD node_modules/@types/supertest
+557 silly ADD node_modules/@types/passport-jwt
+558 silly ADD node_modules/@types/passport
+559 silly ADD node_modules/@types/nodemon
+560 silly ADD node_modules/@types/nodemailer
+561 silly ADD node_modules/@types/multer
+562 silly ADD node_modules/@types/morgan
+563 silly ADD node_modules/@types/lint-staged
+564 silly ADD node_modules/@types/jsonwebtoken
+565 silly ADD node_modules/@types/jest
+566 silly ADD node_modules/@types/eslint-plugin-security
+567 silly ADD node_modules/@types/eslint-plugin-prettier
+568 silly ADD node_modules/@types/eslint-config-prettier
+569 silly ADD node_modules/@types/cors
+570 silly ADD node_modules/@types/compression
+571 silly ADD node_modules/@types/bcryptjs
+572 silly ADD
+573 timing command:install Completed in 3364ms
+574 verbose exit 0
+575 timing npm Completed in 3525ms
+576 info ok

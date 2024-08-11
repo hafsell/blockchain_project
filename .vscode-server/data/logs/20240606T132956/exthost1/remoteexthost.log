@@ -1,0 +1,17 @@
+2024-06-06 13:30:02.610 [info] Extension host with pid 266148 started
+2024-06-06 13:30:02.638 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/d7251ea95541ab4bbd93faa3cea7d9eb/vscode.lock': Lock acquired.
+2024-06-06 13:30:03.782 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-06-06 13:30:03.785 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-06-06 13:30:03.798 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-06 13:30:04.802 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-06 13:30:04.808 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-06-06 13:30:11.514 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-06 13:30:11.515 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-06 13:30:12.537 [info] Eager extensions activated
+2024-06-06 13:30:12.540 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-06 13:30:12.545 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-06 13:31:12.918 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-06-06 13:31:12.918 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-06-06 13:54:16.489 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-06-06 13:54:16.490 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/d7251ea95541ab4bbd93faa3cea7d9eb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-06 13:54:16.529 [info] Extension host with pid 266148 exiting with code 0

@@ -1,0 +1,29 @@
+2024-08-11 11:40:17.080 [info] 
+
+
+
+
+2024-08-11 11:40:17.094 [info] Extension host agent started.
+2024-08-11 11:40:17.733 [info] [<unknown>][c8822d36][ExtensionHostConnection] New connection established.
+2024-08-11 11:40:17.921 [info] [<unknown>][6a9eb323][ManagementConnection] New connection established.
+2024-08-11 11:40:18.159 [info] [<unknown>][c8822d36][ExtensionHostConnection] <203707> Launched Extension Host Process.
+2024-08-11 11:40:32.173 [info] [<unknown>][6a9eb323][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-11 11:40:35.580 [info] [<unknown>][7c562cba][ManagementConnection] New connection established.
+2024-08-11 11:40:35.772 [info] [<unknown>][6562d2fa][ExtensionHostConnection] New connection established.
+2024-08-11 11:40:35.778 [info] [<unknown>][6562d2fa][ExtensionHostConnection] <203754> Launched Extension Host Process.
+2024-08-11 11:45:17.096 [info] New EH opened, aborting shutdown
+2024-08-11 11:45:21.491 [info] Getting Manifest... github.copilot
+2024-08-11 11:45:21.728 [info] Installing extension: github.copilot {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"context":{"clientTargetPlatform":"linux-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.1","date":"2024-08-07T20:16:39.455Z"}}
+2024-08-11 11:45:22.099 [info] Getting Manifest... github.copilot-chat
+2024-08-11 11:45:22.156 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"context":{"clientTargetPlatform":"linux-x64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.1","date":"2024-08-07T20:16:39.455Z"}}
+2024-08-11 11:45:25.658 [info] Extension signature verification result for github.copilot-chat: Success. Executed: true. Duration: 3126ms.
+2024-08-11 11:45:25.688 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 3145ms.
+2024-08-11 11:45:26.631 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.18.1: github.copilot-chat
+2024-08-11 11:45:26.669 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.18.1
+2024-08-11 11:45:26.874 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-1.221.0: github.copilot
+2024-08-11 11:45:26.882 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-1.221.0
+2024-08-11 11:45:26.908 [info] Extension installed successfully: github.copilot-chat file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2024-08-11 11:45:26.909 [info] Extension installed successfully: github.copilot file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2024-08-11 11:45:35.770 [info] [<unknown>][c8822d36][ExtensionHostConnection] <203707> Extension Host Process exited with code: 0, signal: null.
+2024-08-11 12:09:28.536 [error] Error: connect ECONNREFUSED 127.0.0.1:46043
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
